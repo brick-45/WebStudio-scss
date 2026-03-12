@@ -12,20 +12,20 @@
 <body>
     <header class="header">
         <div class="container">
-            <h1 class="logo">Web<span class="logo-blue">Studio</span></h1>
-            <nav class="header__nav-menu">
-                <a href="#">Студія</a>
-                <a href="#">Портфоліо</a>
-                <a href="#">Контакти</a>
+            <h1 class="logo">Web<span class="logo--logoBlue">Studio</span></h1>
+            <nav class="navMenu">
+                <a class="navMenu__link" href="#">Студія</a>
+                <a class="navMenu__link" href="#">Портфоліо</a>
+                <a class="navMenu__link" href="#">Контакти</a>
             </nav>
             <div class="contacts">
                 <div class="contact__number-email"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" fill="none" >
-                      <path class="icon-contacts" fill="#757575" d="M14.5 0H1.50001C.672854 0 0 .672853 0 1.50001V10.5c0 .8271.672854 1.5 1.50001 1.5H14.5c.8271 0 1.5-.6729 1.5-1.5V1.50001C16 .672853 15.3271 0 14.5 0m0 .999994c.0679 0 .1325.014096.1916.038706L8 6.83838 1.30833 1.0387c.05909-.02458.12371-.038706.19165-.038706zM14.5 11H1.50001c-.27587 0-.500014-.2241-.500014-.5V2.09521L7.67236 7.87792c.09425.08152.21094.12207.32764.12207s.23339-.04051.32764-.12207L15 2.09521V10.5c0 .2759-.2241.5-.5.5"/>
+                      <path class="contacts__icon" fill="#757575" d="M14.5 0H1.50001C.672854 0 0 .672853 0 1.50001V10.5c0 .8271.672854 1.5 1.50001 1.5H14.5c.8271 0 1.5-.6729 1.5-1.5V1.50001C16 .672853 15.3271 0 14.5 0m0 .999994c.0679 0 .1325.014096.1916.038706L8 6.83838 1.30833 1.0387c.05909-.02458.12371-.038706.19165-.038706zM14.5 11H1.50001c-.27587 0-.500014-.2241-.500014-.5V2.09521L7.67236 7.87792c.09425.08152.21094.12207.32764.12207s.23339-.04051.32764-.12207L15 2.09521V10.5c0 .2759-.2241.5-.5.5"/>
                     </svg></span><a href="mailto:info@devstudio.com">
                 </span>info@devstudio.com</a></div>
-                <div class="contact-number-email"><span>
+                <div class="contact__number-email"><span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="none" >
-                      <path class="icon-contacts" fill="#757575" d="M8.5 0h-7C.672848 0 0 .672848 0 1.5v13c0 .8272.672848 1.5 1.5 1.5h7c.82715 0 1.5-.6728 1.5-1.5v-13C10 .672848 9.32715 0 8.5 0m-7 1h7c.27588 0 .5.22412.5.5V12H1V1.5c0-.27588.22412-.5.5-.5m7 14h-7c-.27588 0-.5-.2241-.5-.5V13h8v1.5c0 .2759-.22412.5-.5.5"/>
+                      <path class="contacts__icon" fill="#757575" d="M8.5 0h-7C.672848 0 0 .672848 0 1.5v13c0 .8272.672848 1.5 1.5 1.5h7c.82715 0 1.5-.6728 1.5-1.5v-13C10 .672848 9.32715 0 8.5 0m-7 1h7c.27588 0 .5.22412.5.5V12H1V1.5c0-.27588.22412-.5.5-.5m7 14h-7c-.27588 0-.5-.2241-.5-.5V13h8v1.5c0 .2759-.22412.5-.5.5"/>
                     </svg>
                 </span><a href="tel:+380961111111">+38 096 111 11 11</a></div>
             </div>
@@ -37,7 +37,7 @@
             <div class="container">
                 <h2 class="order__title">Ефективні рішення для вашого бізнесу</h2>
                 <button class="order__button" type="button" data-modal-open>Замовити послугу</button>
-                <div class="backdrop is-hidden" data-modal>
+                <div class="backdrop--is-hidden" data-modal>
                   <div class="modal">
                     <button type="button" class="btn-close-modal" data-modal-close>⨉</button>
                     <form class="modal-form">
@@ -354,7 +354,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section class="customers">
             <div class="container">
                 <h2 class="customers__title">Постійні клієнти</h2>
@@ -405,7 +405,7 @@
         <div class="container">
           <div class="footer__content" >
             <div class="contacts__section1">
-                <h1 class="logo"><span class="logo-blue">Web</span>Studio</h1>
+                <h1 class="logo"><span class="logo--logoBlue">Web</span>Studio</h1>
                 <p>м. Київ, пр-т Лесі Українки, 26</p>
                 <a href="mailto:info@devstudio.com">info@devstudio.com</a>
                 <a href="tel:+380961111111">+38 096 111 11 11</a>
